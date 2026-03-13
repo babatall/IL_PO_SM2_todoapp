@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
+// Il gere toute lqa lgique metier ddes tasks
 @Service
 @RequiredArgsConstructor
 @Slf4j

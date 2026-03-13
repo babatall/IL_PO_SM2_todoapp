@@ -12,13 +12,8 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-/**
- * Contrôleur MVC — Gestion des routes HTTP pour les tâches.
- *
- * SOLID :
- *  - SRP : Gère uniquement le routage HTTP, délègue au service.
- *  - DIP : Dépend de l'interface TaskService, pas de l'implémentation.
- */
+//Contrôleur MVC — Gestion des routes HTTP pour les tâches.
+// Gère uniquement le routage HTTP, délègue au service. Dépend de l'interface TaskService, pas de l'implémentation
 @Controller
 @RequestMapping("/tasks")
 @RequiredArgsConstructor

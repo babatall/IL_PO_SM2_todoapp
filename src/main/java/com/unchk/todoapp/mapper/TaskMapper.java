@@ -4,13 +4,12 @@ import com.unchk.todoapp.dto.TaskDTO;
 import com.unchk.todoapp.model.Task;
 import org.springframework.stereotype.Component;
 
+//Fait uniquement le mapping des donnee
 
 @Component
 public class TaskMapper {
 
-    /**
-     * Convertit une entité Task en TaskDTO.
-     */
+    //Convertit une entite Task en TaskDTO.
     public TaskDTO toDTO(Task task) {
         if (task == null) return null;
 
@@ -22,9 +21,7 @@ public class TaskMapper {
                 .build();
     }
 
-    /**
-     * Convertit un TaskDTO en entité Task.
-     */
+    //  Convertit un TaskDTO en entite Task.
     public Task toEntity(TaskDTO dto) {
         if (dto == null) return null;
 
